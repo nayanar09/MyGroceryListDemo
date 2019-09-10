@@ -92,10 +92,7 @@ public class MainActivity extends AppCompatActivity {
         saveButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-
-                //Todo: Save to db
-                //Todo: Go to next screen
-
+                
                 if (!groceryItem.getText().toString().isEmpty()
                         && !quantity.getText().toString().isEmpty()) {
                     saveGroceryToDB(v);
