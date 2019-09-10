@@ -36,13 +36,7 @@ public class RecyclerViewAdapter extends RecyclerView.Adapter<RecyclerViewAdapte
 
     @Override
     public RecyclerViewAdapter.ViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int i) {
-
-        //public abstract class LayoutInflater  extends Object
-        //Instantiates a layout XML file into its corresponding View  objects
-
-        //public android.view.View inflate(@LayoutRes int resource,
-        //                                 android.view.ViewGroup root)
-        //Inflate a new view hierarchy from the specified xml resource. Throws InflateException if there is an error.
+        
         View view = LayoutInflater.from( parent.getContext()).inflate( R.layout.list_row, parent ,false);
 
         return new ViewHolder( view , context);
