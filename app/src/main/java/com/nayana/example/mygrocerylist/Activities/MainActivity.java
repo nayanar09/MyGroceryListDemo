@@ -35,7 +35,7 @@ public class MainActivity extends AppCompatActivity {
 
         db = new DataBaseHandler(this);
 
-        byPassActivity(); //activity called so that user can see d List of Groceries added to database as he open app
+        byPassActivity(); //activity called so that user can see the List of Groceries added to database as he open app
 
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
